@@ -1,0 +1,6 @@
+*.o
+*.a
+/skynet
+*.so
+*.dSYM
+.DS_Store
