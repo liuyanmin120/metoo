@@ -1,6 +1,6 @@
 local skynet = require "skynet"
 require "skynet.manager"
-local snax = require "snax"
+local snax = require "skynet.snax"
 
 -- 玩家相关的dc列表
 local userdc_list = {

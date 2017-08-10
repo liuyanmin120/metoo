@@ -1,6 +1,6 @@
 local skynet = require "skynet"
 require "skynet.manager"
-local redis = require "redis"
+local redis = require "skynet.db.redis"
 
 local CMD = {}
 local pool = {}

@@ -1,8 +1,8 @@
 local login = require "snax.login_server"
-local crypt = require "crypt"
+local crypt = require "skynet.crypt"
 local skynet = require "skynet"
-local snax = require "snax"
-local cluster = require "cluster"
+local snax = require "skynet.snax"
+local cluster = require "skynet.cluster"
 
 local server = {
 	host = "0.0.0.0",

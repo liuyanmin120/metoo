@@ -1,7 +1,7 @@
 local msgserver = require "snax.msg_server"
-local crypt = require "crypt"
+local crypt = require "skynet.crypt"
 local skynet = require "skynet"
-local cluster = require "cluster"
+local cluster = require "skynet.cluster"
 
 local server = {}
 local users = {}		-- uid -> u

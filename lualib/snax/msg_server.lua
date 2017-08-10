@@ -1,9 +1,9 @@
 local skynet = require "skynet"
 require "skynet.manager"
 local gateserver = require "snax.gateserver"
-local netpack = require "netpack"
-local crypt = require "crypt"
-local socketdriver = require "socketdriver"
+local netpack = require "skynet.netpack"
+local crypt = require "skynet.crypt"
+local socketdriver = require "skynet.socketdriver"
 local assert = assert
 local b64encode = crypt.base64encode
 local b64decode = crypt.base64decode

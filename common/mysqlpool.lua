@@ -1,6 +1,6 @@
 local skynet = require "skynet"
 require "skynet.manager"
-local mysql = require "mysql"
+local mysql = require "skynet.db.mysql"
 
 local CMD = {}
 local pool = {}

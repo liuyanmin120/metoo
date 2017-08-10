@@ -1,6 +1,6 @@
 local skynet = require "skynet"
 local protobuf = require "protobuf"
-local socketdriver = require "socketdriver"
+local socketdriver = require "skynet.socketdriver"
 
 function do_redis(args, uid)
 	local cmd = assert(args[1])

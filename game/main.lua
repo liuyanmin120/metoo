@@ -1,6 +1,6 @@
 local skynet = require "skynet"
-local snax = require "snax"
-local cluster = require "cluster"
+local snax = require "skynet.snax"
+local cluster = require "skynet.cluster"
 
 local config = {
 	{ name = "s_config", key = "id" },

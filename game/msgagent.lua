@@ -1,7 +1,7 @@
 local skynet = require "skynet"
 local queue = require "skynet.queue"
-local snax = require "snax"
-local netpack = require "netpack"
+local snax = require "skynet.snax"
+local netpack = require "skynet.netpack"
 local protobuf = require "protobuf"
 
 local cs = queue()
