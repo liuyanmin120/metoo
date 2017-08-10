@@ -2,8 +2,8 @@ package.cpath = "skynet/luaclib/?.so;luaclib/?.so"
 local service_path = "./lualib/?.lua;" .. "./common/?.lua;" .. "./global/?.lua;" .. "./?.lua"
 package.path = "skynet/lualib/?.lua;skynet/service/?.lua;" .. service_path
 
-local socket = require "clientsocket"
-local crypt = require "crypt"
+local socket = require "client.socket"
+local crypt = require "skynet.crypt"
 local protobuf = require "protobuf"
 require "luaext"
 
